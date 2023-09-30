@@ -1,0 +1,42 @@
+.Sidebar{
+    height: 100vh;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(220, 220, 220, 0.15);
+}
+
+.Menu {
+    margin: 0 10px 5px 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.Sidenav{
+    margin: 0;
+    padding: 0;
+}
+
+.Navitem {
+    list-style-type: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.Navitem:hover {
+    background-color: #00a0833a;
+}
+
+.Sidenav #active {
+    background-color: #00A082;
+    color: white;
+}
+
+.Icon {
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
