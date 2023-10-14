@@ -1,29 +1,31 @@
 .Container {
     display: flex;
-    
 }
 
 .Subcontainer {
     width: 100%;
+    text-align: center;
 }
 
 h2 {
     font-family: "Montserrat";
+    
 }
 
 .Firstrow {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
+    cursor: pointer; 
 }
 
 .Firstrow li {
     list-style-type: none;
-
 }
 
 .Firstrow li img {
-    width: 100px;
-    border: 1px grey solid;
-    border-radius: 50%;
+    width: 50px;
+}
+
+.Firstrow li:hover {
+    opacity: 50%;
 }

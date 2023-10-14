@@ -35,7 +35,10 @@
 
 .Icon {
     width: 20px;
-    padding-left: 5px;
+    padding-left: 7px;
     padding-right: 5px;
 }
 
+.Title {
+    white-space: nowrap;
+}
