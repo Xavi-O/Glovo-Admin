@@ -23,8 +23,7 @@ function Content() {
           <Storeslist />
         </div>
         
-    </div>
-    
+    </div>  
     </>
   )
 }

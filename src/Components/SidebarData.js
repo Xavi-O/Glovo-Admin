@@ -10,67 +10,67 @@ export const SidebarData = [
 
     {
         title: "Search",
-        icon: <img alt='Search' src='icons/search.svg'></img>,
+        icon: <>&#128269;</>,
         link: "/search"
     },
     {
         title: "Live Map",
-        icon: <img alt='' src='icons/map.svg'></img>,
+        icon: <>&#127760;</>,
         link: "/livemap"
     },
     {
         title: "Orders Dashboard",
-        icon: <img alt='' src='icons/orders.svg'></img>,
+        icon: <>&#128722;</>,
         link: "/ordersdashboard"
     },
     {
         title: "RTO HQ",
-        icon: <img alt='' src='icons/rto.svg'></img>,
+        icon: <>&#129504;</>,
         link: "/rtohq"
     },
     {
         title: "Content",
-        icon: <img alt='' src='icons/content.svg'></img>,
+        icon: <>&#10224;</>,
         link: "/content"
     },
     {
         title: "Promotion Tools",
-        icon: <img alt='' src='icons/promotools.svg'></img>,
+        icon: <>&#9881;</>,
         link: "/promotiontools"
     },
     {
         title: "Promocodes",
-        icon: <img alt='' src='icons/promocodes.svg'></img>,
+        icon: <>&#128273;</>,
         link: "/promocodes"
     },
     {
         title: "Cities",
-        icon: <img alt='' src='icons/cities.svg'></img>,
+        icon: <>&#127961;</>,
         link: "/cities"
     },
     {
         title: "Countries",
-        icon: <img alt='' src='icons/countries.svg'></img>,
+        icon: <>&#127757;</>,
         link: "/countries"
     },
     {
         title: "Billing & Invoicing",
-        icon: <img alt='' src='icons/billing.svg'></img>,
+        icon: <>&#128179;</>,
         link: "/billing&invoicing"
     },
     {
         title: "Tags",
-        icon: <img alt='' src='icons/tags.svg'></img>,
+        icon: <>&#128206;</>,
         link: "/tags"
     },
     {
         title: "Glovo Cares",
-        icon: <img alt='' src='icons/care.svg'></img>,
+        icon: <>&#128149;</>,
         link: "/glovocares"
     },
     {
         title: "Subscriptions",
-        icon: <img alt='' src='icons/subscriptions.svg'></img>,
+        icon: <>&#128365;</>,
         link: "/subscriptions"
     },
 ]

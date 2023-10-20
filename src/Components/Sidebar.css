@@ -1,7 +1,5 @@
 .Sidebar{
     height: 100vh;
-    color: rgba(0, 0, 0, 0.6);
-    background-color: rgba(220, 220, 220, 0.15);
 }
 
 .Menu {
@@ -17,28 +15,32 @@
 
 .Navitem {
     list-style-type: none;
-    border-radius: 10px;
     cursor: pointer;
     display: flex;
-    margin-bottom: 5px;
-    padding: 5px;
+    font-size: large;
+    line-height: 40px;
+    text-align: center;
 }
 
 .Navitem:hover {
-    background-color: #00a0833a;
+    background-color: gainsboro;
 }
 
 .Sidenav #active {
-    background-color: #00A082;
-    color: white;
+    background-color: #00a0831c;
+    color: #00A082;
+}
+
+.Sidenav #active .Icon {
+    border-left: 5px solid #00A082;
 }
 
 .Icon {
-    width: 20px;
-    padding-left: 7px;
-    padding-right: 5px;
+    padding-left: 12px;
 }
 
 .Title {
     white-space: nowrap;
+    margin-right: 10px;
+    font-size: medium;
 }
